@@ -1,0 +1,36 @@
+{
+  "name": "isbn-reader",
+  "description": "ISBN reader",
+  "version": "1.1.8",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Hitoshi Wada",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "ISBN Reader",
+    "description": "ISBN reader",
+    "author": "Hitoshi Wada",
+    "components": [
+      {
+        "name": "isbnreader",
+        "manifest": "./src/components/Isbnreader/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.42",
+    "react": "^16.14.0",
+    "react-art": "^16.13.1",
+    "react-dom": "^16.14.0",
+    "react-native-web": "^0.9.13"
+  },
+  "dependencies": {
+    "quagga": "^0.12.1",
+    "react-webcam": "^6.0.0"
+  }
+}
