@@ -12,9 +12,9 @@ npx adalo dev
 npx adalo publish
 ```
 
-![demo/capture1.jpg]  
-![demo/capture2.jpg]
-![demo/capture3.jpg]
+![demo/capture1.png](demo/capture1.png)  
+![demo/capture2.png](demo/capture2.png)  
+![demo/capture3.jpg](demo/capture3.jpg)
 
 ## refs
 
